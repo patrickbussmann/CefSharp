@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp.Example", "CefSharp.Example\CefSharp.Example.csproj", "{A4394E7B-1155-43A6-989E-8AB72DDDC9E4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp.Wpf.Example", "CefSharp.Wpf.Example\CefSharp.Wpf.Example.csproj", "{4828DAEC-EF99-4553-B674-4374F77C6D66}"
-	ProjectSection(ProjectDependencies) = postProject
-		{23EE5140-2C2C-4B53-A954-10B08DCA6BD6} = {23EE5140-2C2C-4B53-A954-10B08DCA6BD6}
-		{E6CB3790-F267-4AC7-892C-2620737682CA} = {E6CB3790-F267-4AC7-892C-2620737682CA}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{47D0DC8C-D707-4D8A-A578-7737AA9CE79B}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,11 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CONTRIBUTING.md = CONTRIBUTING.md
 		LICENSE = LICENSE
 		README.md = README.md
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp.Wpf", "CefSharp.Wpf\CefSharp.Wpf.csproj", "{E6CB3790-F267-4AC7-892C-2620737682CA}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7B495581-2271-4F41-9476-ACB86E8C864F} = {7B495581-2271-4F41-9476-ACB86E8C864F}
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CefSharp.BrowserSubprocess", "CefSharp.BrowserSubprocess\CefSharp.BrowserSubprocess.csproj", "{23EE5140-2C2C-4B53-A954-10B08DCA6BD6}"
@@ -91,22 +80,6 @@ Global
 		{A4394E7B-1155-43A6-989E-8AB72DDDC9E4}.Release|Win32.Build.0 = Release|x86
 		{A4394E7B-1155-43A6-989E-8AB72DDDC9E4}.Release|x64.ActiveCfg = Release|x64
 		{A4394E7B-1155-43A6-989E-8AB72DDDC9E4}.Release|x64.Build.0 = Release|x64
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Debug|Win32.ActiveCfg = Debug|x86
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Debug|Win32.Build.0 = Debug|x86
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Debug|x64.ActiveCfg = Debug|x64
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Debug|x64.Build.0 = Debug|x64
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Release|Win32.ActiveCfg = Release|x86
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Release|Win32.Build.0 = Release|x86
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Release|x64.ActiveCfg = Release|x64
-		{4828DAEC-EF99-4553-B674-4374F77C6D66}.Release|x64.Build.0 = Release|x64
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Debug|Win32.ActiveCfg = Debug|x86
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Debug|Win32.Build.0 = Debug|x86
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Debug|x64.ActiveCfg = Debug|x64
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Debug|x64.Build.0 = Debug|x64
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Release|Win32.ActiveCfg = Release|x86
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Release|Win32.Build.0 = Release|x86
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Release|x64.ActiveCfg = Release|x64
-		{E6CB3790-F267-4AC7-892C-2620737682CA}.Release|x64.Build.0 = Release|x64
 		{23EE5140-2C2C-4B53-A954-10B08DCA6BD6}.Debug|Win32.ActiveCfg = Debug|x86
 		{23EE5140-2C2C-4B53-A954-10B08DCA6BD6}.Debug|Win32.Build.0 = Debug|x86
 		{23EE5140-2C2C-4B53-A954-10B08DCA6BD6}.Debug|x64.ActiveCfg = Debug|x64
@@ -178,5 +151,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A23AA466-1903-44F2-946D-25AD0500D56B} = {47D0DC8C-D707-4D8A-A578-7737AA9CE79B}
 		{9AD9C469-B121-47BB-9B9F-30D1B96B52B0} = {47D0DC8C-D707-4D8A-A578-7737AA9CE79B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E79E0812-D964-4B56-B8B2-1085EA581378}
 	EndGlobalSection
 EndGlobal

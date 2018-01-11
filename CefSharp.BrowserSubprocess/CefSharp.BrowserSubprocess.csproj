@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CefSharp.BrowserSubprocess</RootNamespace>
     <AssemblyName>CefSharp.BrowserSubprocess</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -109,9 +109,9 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if $(PlatformName) == x86 (
-  "$(DevEnvDir)..\..\VC\bin\editbin" /largeaddressaware /TSAWARE $(TargetPath)
+  "$(DevEnvDir)..\..\VC\Tools\MSVC\14.11.25503\bin\HostX64\x86\editbin" /largeaddressaware /TSAWARE $(TargetPath)
 ) else (
-  "$(DevEnvDir)..\..\VC\bin\amd64\editbin" /TSAWARE $(TargetPath)
+  "$(DevEnvDir)..\..\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\editbin" /TSAWARE $(TargetPath)
 )</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

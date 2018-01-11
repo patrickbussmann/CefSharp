@@ -4,6 +4,7 @@
 
 using System;
 using System.Drawing;
+using System.ServiceModel.Channels;
 using System.Threading.Tasks;
 using CefSharp.Internals;
 
